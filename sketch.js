@@ -72,7 +72,7 @@ drawSprites();
 
     if(keyCode === LEFT_ARROW)
     {
-     keyCode = RIGHT_ARROW
+   
         mouse.addAnimation("mouseT", mouse2);
         mouse.changeAnimation("mouseT");
         mouse.frameDelay = 25;
